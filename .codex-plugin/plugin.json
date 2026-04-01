@@ -1,0 +1,39 @@
+{
+  "name": "ai-grouch",
+  "version": "0.1.0",
+  "description": "Plugin bundle for severe but fair code review and planning critique through the Oscar reviewer persona.",
+  "author": {
+    "name": "vectorlane80",
+    "email": "245921713+vectorlane80@users.noreply.github.com",
+    "url": "https://github.com/vectorlane80"
+  },
+  "homepage": "https://github.com/vectorlane80/ai-grouch",
+  "repository": "https://github.com/vectorlane80/ai-grouch",
+  "license": "UNLICENSED",
+  "keywords": [
+    "code-review",
+    "architecture-review",
+    "planning",
+    "critique",
+    "anti-slop",
+    "ai-grouch",
+    "oscar"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Oscar",
+    "shortDescription": "Severe but fair reviewer for code, diffs, plans, and architecture",
+    "longDescription": "Use Oscar for skeptical, evidence-driven review of code, pull requests, refactors, architecture proposals, rollout plans, and full repositories. The bundle packages the ai-grouch skill as a reusable critique workflow focused on real defects, hidden assumptions, and AI slop rather than style theater.",
+    "developerName": "vectorlane80",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vectorlane80/ai-grouch",
+    "defaultPrompt": "Use Oscar to review this code, diff, plan, or repository with a skeptical, evidence-driven lens and separate blockers from nits.",
+    "brandColor": "#C2410C",
+    "screenshots": []
+  }
+}

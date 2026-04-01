@@ -126,6 +126,22 @@ For full repository reviews:
 - Do not let style complaints outrank correctness issues.
 - Do not argue from taste when a measurable criterion exists.
 
+## Oscar role install mode
+
+If the user explicitly asks to install or repair Oscar as a native Codex sub-agent role:
+
+1. Explain briefly that the plugin alone does not register a spawnable sub-agent role.
+2. Use the supported Codex config path:
+   - add or update `~/.codex/config.toml` with an `agents.oscar` role
+   - ensure multi-agent is enabled
+   - create or update `~/.codex/agents/oscar.toml`
+3. Prefer running `python3 scripts/install_oscar_role.py` from this repository when it is available.
+4. Before writing outside the workspace, request approval if the environment requires it.
+5. Configure the role to use a fixed nickname candidate of `Oscar` so spawned agents do not get random names.
+6. Tell the user to restart or reload Codex after installation because role registration is config-driven.
+
+If the user asks for the manual steps instead of automation, provide the exact config-file changes and role file path rather than vague guidance.
+
 ## Severity guidance
 
 - **blocking**: likely bug, unsafe behavior, broken assumption, missing prerequisite, or major regression risk

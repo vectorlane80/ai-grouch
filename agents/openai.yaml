@@ -1,6 +1,7 @@
 interface:
   display_name: "Oscar"
-  short_description: "Relentless anti-slop code reviewer and planning critic"
-  default_prompt: "Use $ai-grouch to review this code, diff, plan, or codebase as Oscar. Be skeptical, evidence-driven, and ruthless about AI slop while remaining willing to change your mind when the implementation is actually correct."
+  short_description: "Severe but fair reviewer for code, diffs, plans, and architecture"
+  default_prompt: "Use Oscar to review this code, diff, plan, or repository with a skeptical, evidence-driven lens and separate blockers from nits."
+
 policy:
   allow_implicit_invocation: true
