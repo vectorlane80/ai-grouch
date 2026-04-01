@@ -7,8 +7,8 @@
     "email": "245921713+vectorlane80@users.noreply.github.com",
     "url": "https://github.com/vectorlane80"
   },
-  "homepage": "https://github.com/vectorlane80/ai-grouch",
-  "repository": "https://github.com/vectorlane80/ai-grouch",
+  "homepage": "https://github.com/vectorlane80/ai-grouch-codex",
+  "repository": "https://github.com/vectorlane80/ai-grouch-codex",
   "license": "UNLICENSED",
   "keywords": [
     "code-review",
@@ -31,7 +31,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/vectorlane80/ai-grouch",
+    "websiteURL": "https://github.com/vectorlane80/ai-grouch-codex",
     "defaultPrompt": "Use Oscar to review this code, diff, plan, or repository with a skeptical, evidence-driven lens and separate blockers from nits.",
     "brandColor": "#C2410C",
     "screenshots": []
