@@ -11,6 +11,7 @@ State one of:
 - defensible but risky
 
 Then add 2-4 sentences explaining the real reason.
+If any high-risk category from the targeted second pass was not inspected, add a one-line coverage limitation naming what was not checked.
 
 ## Blocking issues
 List only true blockers.
